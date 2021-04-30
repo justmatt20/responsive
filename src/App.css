@@ -1,0 +1,10 @@
+body { 
+    margin: 0px;
+    background: url('https://images.unsplash.com/photo-1568276237815-bdc19d9de30b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTV8fG1vdW50YWlucyUyMGNsb3Vkc3xlbnwwfHwwfGJsYWNrX2FuZF93aGl0ZXw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html, body {
+    overflow-x: hidden;
+}
