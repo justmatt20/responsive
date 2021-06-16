@@ -23,14 +23,18 @@ class Nav extends Component {
         return (
             <div>
                 <nav className="nav_bar">
-                    <h1>Start Bootstrap</h1>
+                    <div className="heading">
+                        <h1>Start Bootstrap</h1>
+                        
+                        </div>
+                        <img className="ham_btn"  src="/images/menu.png" alt="hamburger menu"  onClick={this.handleClick}/>
                         <ul className="menu">
                             <li>About</li>
                             <li>Projects</li>
                             <li>Contact</li>
                         </ul>
-                        <img onClick={this.handleClick}className="ham_btn"  src="/images/menu.png" alt="hamburger menu" />
-                    </nav>
+                       
+                    
                 
                 <menu className={openMenu}>
                     <ul className="open_links">
@@ -39,6 +43,7 @@ class Nav extends Component {
                         <li >Contact</li>
                     </ul>
                 </menu>
+                </nav>
             </div>
         )
     }

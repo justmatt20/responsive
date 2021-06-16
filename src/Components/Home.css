@@ -1,14 +1,11 @@
 .title{
+    text-align: center;
     text-transform: uppercase;
     font-family: 'Varela Round', sans-serif;
-    max-width: 70rem;
-    font-size: 8.5vw;
+    font-size: 7.5vw;
     letter-spacing: 0.067em;
     margin-top: 6rem; 
     margin-bottom: 2rem;
-    /* background: linear-gradient(to bottom, #F9F8FF 0%, #919191 100%); 
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
     background: #FFFFFF;
     background: -webkit-linear-gradient(to bottom, #FFFFFF 45%, #4A4A4A 100%);
     background: -moz-linear-gradient(to bottom, #FFFFFF 45%, #4A4A4A 100%);
@@ -27,7 +24,8 @@
     max-width: 36rem;
     font-size: 1.8vw;
     text-align: center;
-    color: rgba(218, 220, 221, 0.945);
+    /* color: rgba(218, 220, 221, 0.945); */
+    color: white;
     margin: auto;
     font-family: 'Nunito', sans-serif;
 }
@@ -37,9 +35,9 @@ button {
     color: white;
     letter-spacing: 0.08rem;
     font-family: 'Varela Round', sans-serif;
-    background-color: rgba(2, 148, 148, 0.616);
-    border-color: rgba(2, 148, 148, 0.616);
-    border: 1px solid rgba(2, 148, 148, 0.616);
+    background-color: rgba(2, 148, 148);
+    border-color: rgba(2, 148, 148);
+    border: 1px solid rgba(2, 148, 148);
     border-radius: 6px;
     cursor: pointer;
     line-height: 2;
@@ -48,4 +46,15 @@ button {
     margin-top: 2rem;
     padding: 14px 32px;
     margin-bottom: 6rem;
+}
+
+@media (max-width: 600px) {
+    h1.title {
+        width: 100vw;
+        font-size: 3rem;
+    }
+    .paragraph {
+        width: 70vw;
+        font-size: 1rem;;
+    }
 }

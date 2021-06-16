@@ -5,6 +5,7 @@ import './App.css';
 import Nav from './Components/Nav';
 import './reset.css';
 import Home from './Components/Home'
+import Empty from './Components/Empty';
 
 
 
@@ -20,14 +21,13 @@ class App extends React.Component {
 
 render () {
   
-  // const sectionStyle = {
-  //   backgroundImage: "url(" + {Background} + ")"
-  //   }
+ 
   return (
     <div className="body">
-      {/* <section style={sectionStyle}></section> */}
+     
       <Nav />
       <Home />
+      <Empty />
     </div>
   );
 }
